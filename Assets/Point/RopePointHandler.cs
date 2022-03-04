@@ -7,7 +7,9 @@ public class RopePointHandler : MonoBehaviour
     [SerializeField] Material _pointMat,_defMaterial;
     Transform _playerTransform;
 
-    public bool isActive = false;
+    private bool isActive = false;
+
+    public bool IsActive { get => isActive; set => isActive = value; }
 
     private void OnTriggerEnter(Collider other)
     {
