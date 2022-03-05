@@ -15,6 +15,7 @@ public class RopePointHandler : MonoBehaviour
     {
         if(other.gameObject.name == "PointTrigger")
         {
+            Debug.Log("Worked");
             isActive = true;
             other.GetComponentInParent<PlayerMovement>().ropePoint = this.transform;
             _playerTransform = other.gameObject.transform;

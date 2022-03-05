@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Animator _playerAnim;
     [SerializeField] float _smooth = 10f;
     [SerializeField] InstantiateRope _insRope;
+
     Rigidbody _playerRb;
     bool _isSwinging = false;
     public Transform ropePoint;
@@ -34,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * _playerSO.playerSpeed);
+        transform.Translate(Vector3.right * Time.deltaTime * _playerSO.playerSpeed);
 
         if(_isSwinging)
         {
@@ -63,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Pressed");
             _isSwinging = true;
             _playerAnim.SetBool("isSwinging", true);
-            StartCoroutine(_insRope.SpawnRope());
+            //StartCoroutine(_insRope.SpawnRope());
 
         }
         else if (context.canceled)
