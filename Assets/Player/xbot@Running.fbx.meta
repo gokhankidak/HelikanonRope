@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 0db1fe82ce492457988d89c6be26c4d6
+guid: 596a249727fb04ac2baa07101192d6da
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Rope Swinging
+    second: Running
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,11 +36,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Rope Swinging
+      name: Running
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 52
+      lastFrame: 19
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
