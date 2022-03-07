@@ -9,7 +9,7 @@ public class RopePointHandler : MonoBehaviour
 
     private bool isActive = false;
 
-    public bool IsActive { get => isActive; set => isActive = value; }
+    public bool IsActive { get => isActive; }
 
     private void OnTriggerEnter(Collider other)
     {
