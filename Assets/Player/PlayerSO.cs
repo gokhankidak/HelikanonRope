@@ -8,4 +8,5 @@ public class PlayerSO : ScriptableObject
 {
     public float playerSpeed;
     public float swingSpeed;
+    public float overAngle;
 }

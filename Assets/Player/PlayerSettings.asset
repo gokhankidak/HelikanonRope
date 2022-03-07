@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: PlayerSettings
   m_EditorClassIdentifier: 
   playerSpeed: 5
-  swingSpeed: 30
+  swingSpeed: 40
+  overAngle: 120
